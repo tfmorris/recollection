@@ -11,6 +11,8 @@ To build:
 > cd recollection
 > source bin/activate
 > pip install -e git+git://loc-recollect.git.sourceforge.net/gitroot/loc-recollect/loc-recollect#egg=recollection
+  if you have your own fork, you can use that instead e.g. 
+    pip install -e git+git@github.com:tfmorris/recollection.git#egg=recollection
 > pip install -r src/recollection/requirements/requirements.txt
 
 To create the database:
