@@ -13,7 +13,7 @@ django-extensions==0.6
 django-friends==0.1.4
 django-mailer==0.1.0
 django-messages==0.4.2
-django-notification==0.1.4
+django-notification==0.1.4 # >0.2.0 needed for Django 1.4 
 django-pagination==1.0.7
 django-robots==0.6.1
 django-sorting>=0.1
@@ -24,8 +24,8 @@ django_compressor==1.1.1
 django-reversion==1.4
 httplib2==0.7.4
 django-classy-tags==0.3.4.1
-django-cms==2.2
-django-sekizai==0.5
+django-cms==2.2 # not Django 1.4 compatible
+django-sekizai==0.5 # not Django 1.4 compatible
 django-mptt==0.5.1
 html5lib==0.90
 django-piston==0.2.3
